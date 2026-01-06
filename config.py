@@ -5,5 +5,5 @@ from dotenv import load_dotenv
 # Загрузка переменных окружения из .env файла
 load_dotenv()
 
-# Получение токена из переменных окружения
-TOKEN = os.getenv('TELEGRAM_TOKEN')
+# Получение токена напрямую (без использования .env файла)
+TOKEN = '7633818053:AAGEGqGK7qsj2VhAoStNJmCz7uRVTORLKNc'

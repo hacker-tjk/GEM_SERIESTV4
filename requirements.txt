@@ -5,3 +5,5 @@ SpeechRecognition
 pydub
 Pillow
 pytesseract
+g4f
+ddgs

@@ -11,7 +11,11 @@ def main():
 
     setup_handlers(bot, user_messages, user_message_ids)
 
+    # Добавьте эту строку, чтобы сбросить конфликт с вебхуком
+    bot.remove_webhook()
+
     # Запуск бота
+    print("Бот запущен...")
     bot.polling(none_stop=True)
 
 if __name__ == "__main__":
